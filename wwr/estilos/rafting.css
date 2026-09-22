@@ -1,8 +1,6 @@
 :root {
     --cor-primaria: #1b4965;
     --cor-destaque1: #1b4965;
-    --cor-destaque2: #62b6cb;
-    --cor-destaque3: #cae9ff;
     --cor-primaria: #1b4965;
     --fonte-titulo: Arial, sans-serif;
     --fonte-body: Arial, sans-serif;
@@ -41,7 +39,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -49,13 +47,13 @@ article {
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -64,10 +62,21 @@ h1 {
     opacity: 0.7;
     background-color: var(--cor-destaque1);
     color: #fff;
+}
 
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 8px;
+    background-color: var(--cor-destaque1);
+    color: #fff;
+    opacity: 0.8;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 15px;
 }
