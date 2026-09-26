@@ -1,7 +1,7 @@
 :root {
-    --cor-primaria: #1b4965;
+
     --cor-destaque1: #1b4965;
-    --cor-primaria: #1b4965;
+    --cor-primaria: #0e3a55;
     --fonte-titulo: Arial, sans-serif;
     --fonte-body: Arial, sans-serif;
 }
@@ -146,11 +146,11 @@ footer {
     color: #fff;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 15px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 50px;
 }
