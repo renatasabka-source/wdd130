@@ -17,13 +17,6 @@ body {
     color: var(--cor-destaque1);
 }
 
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
 h1,
 h2 {
     font-family: var(--fonte-titulo);
@@ -31,15 +24,33 @@ h2 {
     text-align: center;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 20px;
 }
 
-.socialmedia a {
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.redes-sociais a {
     text-decoration: none;
 }
 
@@ -66,10 +77,10 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    padding: 8px;
+    top: 35%;
+    left: 50px;
+    right: 50px;
+    padding: 15px;
     background-color: var(--cor-destaque1);
     color: #fff;
     opacity: 0.8;
@@ -77,6 +88,69 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 80px;
     margin-left: 15px;
+    margin-right: 20px;
+}
+
+.aventuras {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.aventuras-secao {
+    padding: 20px;
+    border: 1px solid var(--cor-primaria);
+    margin: 20px;
+}
+
+.aventuras figure {
+    flex: 1;
+    margin: 0;
+}
+
+.aventuras img {
+    width: 100%;
+    max-width: 125px;
+
+}
+
+.historia-img {
+    width: 180px;
+}
+
+.historia-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 180px 1fr;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.historia {
+    padding: 20px;
+    border: 1px solid var(--cor-primaria);
+    margin: 20px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--cor-destaque1);
+    color: #fff;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociais img {
+    width: 50px;
 }
