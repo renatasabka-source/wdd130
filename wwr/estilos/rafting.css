@@ -2,6 +2,7 @@
 
     --cor-destaque1: #1b4965;
     --cor-primaria: #0e3a55;
+    --cor-branco: #fff;
     --fonte-titulo: Arial, sans-serif;
     --fonte-body: Arial, sans-serif;
 }
@@ -73,7 +74,7 @@ nav a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #ffffff;
+    color: var(--cor-branco)
 }
 
 .hero article {
@@ -83,8 +84,7 @@ nav a {
     right: 50px;
     padding: 15px;
     background-color: var(--cor-destaque1);
-    color: #fff;
-    opacity: 0.8;
+    color: var(--cor-branco) opacity: 0.8;
 }
 
 .hero article img {
@@ -144,7 +144,7 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: var(--cor-destaque1);
-    color: #fff;
+    color: var(--cor-branco);
 }
 
 .redes-sociais {
@@ -256,7 +256,7 @@ button {
     padding: 12px;
     border: 1px solid var(--cor-primaria);
     background-color: var(--cor-destaque1);
-    color: white;
+    color: var(--cor-branco);
     font-size: 18px;
     font-family: var(--fonte-body);
     cursor: pointer;
