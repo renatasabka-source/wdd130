@@ -28,7 +28,8 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    padding: 20px;
+    padding: 15px 40px;
+
 }
 
 header img {
@@ -72,7 +73,7 @@ nav a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #fff;
+    color: #ffffff;
 }
 
 .hero article {
@@ -153,4 +154,167 @@ footer {
 
 .socialmedia img {
     width: 50px;
+}
+
+/* -------------------------
+   PÁGINA FALE CONOSCO
+------------------------- */
+
+.contato-intro {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.contato-intro h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.contato-intro p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Área do mapa e formulário */
+
+.contato-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 20px 50px;
+    align-items: center;
+}
+
+/* Formulário */
+
+.formulario {
+    width: 100%;
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.campo label {
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--cor-destaque1);
+    font-family: var(--fonte-body);
+    font-size: 16px;
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
+/* Opções de motivo da mensagem */
+
+fieldset {
+    border: none;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset legend {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+fieldset label {
+    margin-left: 120px;
+}
+
+fieldset input {
+    margin-right: 8px;
+}
+
+/* Newsletter */
+
+.newsletter {
+    margin: 15px 0;
+}
+
+.newsletter input {
+    margin-right: 8px;
+}
+
+/* Botão */
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--cor-destaque1);
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonte-body);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-primaria);
+}
+
+/* -------------------------
+   EQUIPE
+------------------------- */
+
+.equipe {
+    margin: 30px 20px;
+    padding: 20px;
+    border: 1px solid var(--cor-primaria);
+}
+
+.equipe h2 {
+    margin-bottom: 20px;
+}
+
+.equipe-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+}
+
+.funcionario {
+    flex: 1;
+}
+
+.funcionario img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.funcionario h3 {
+    margin-top: 10px;
+    color: var(--cor-primaria);
+}
+
+.funcionario p {
+    margin-top: 5px;
+}
+
+/* Mapa */
+
+.mapa {
+    width: 100%;
+}
+
+.mapa iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: 0;
 }
