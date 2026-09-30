@@ -147,12 +147,12 @@ footer {
     color: #fff;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     gap: 15px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 50px;
 }
 
