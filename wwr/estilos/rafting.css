@@ -52,7 +52,7 @@ nav a {
     text-decoration: none;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -148,12 +148,12 @@ footer {
     color: var(--cor-branco);
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 15px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 50px;
 }
 
